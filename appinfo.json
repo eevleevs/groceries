@@ -1,0 +1,62 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "giulio.malventi@gmail.com",
+    "longName": "Groceries",
+    "projectType": "pebblejs",
+    "resources": {
+        "media": [
+            {
+                "file": "images/menu_icon.png",
+                "name": "IMAGE_MENU_ICON",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/logo_splash.png",
+                "name": "IMAGE_LOGO_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/tile_splash.png",
+                "name": "IMAGE_TILE_SPLASH",
+                "type": "bitmap"
+            },
+            {
+                "file": "fonts/UbuntuMono-Regular.ttf",
+                "name": "MONO_FONT_14",
+                "type": "font"
+            },
+            {
+                "file": "images/icon_28x28.png",
+                "menuIcon": true,
+                "name": "IMAGES_ICON_28X28_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/icon_144x100.png",
+                "name": "IMAGES_ICON_144X100_PNG",
+                "type": "bitmap"
+            },
+            {
+                "file": "images/icon_144x100-color.png",
+                "name": "IMAGES_ICON_144X100_COLOR_PNG",
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Groceries",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "22f26065-44b0-4055-90cd-4bb9232e0c65",
+    "versionCode": 1,
+    "versionLabel": "1.2",
+    "watchapp": {
+        "hiddenApp": false,
+        "watchface": false
+    }
+}
