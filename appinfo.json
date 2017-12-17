@@ -29,8 +29,13 @@
                 "type": "font"
             },
             {
-                "file": "images/icon_28x28.png",
+                "file": "images/icon_25x25.png",
                 "menuIcon": true,
+                "name": "IMAGES_ICON_25X25_PNG",
+                "type": "png"
+            },
+            {
+                "file": "images/icon_28x28.png",
                 "name": "IMAGES_ICON_28X28_PNG",
                 "type": "bitmap"
             },
@@ -50,7 +55,8 @@
     "shortName": "Groceries",
     "targetPlatforms": [
         "aplite",
-        "basalt"
+        "basalt",
+        "chalk"
     ],
     "uuid": "22f26065-44b0-4055-90cd-4bb9232e0c65",
     "versionCode": 1,
