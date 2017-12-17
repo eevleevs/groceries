@@ -36,14 +36,14 @@ var details = new UI.Card({
 });
 
 // Wait card
-var wait = new UI.Window();
+/*var wait = new UI.Window();
 var wait_image = new UI.Image({
   position: new Vector2(0, 0),
   size: new Vector2(144, 100),
   //image: 'images/icon_144x100.png'
   image: (info.platform == 'aplite' ? 'images/icon_144x100.png' : 'images/icon_144x100-color.png')
 });
-wait.add(wait_image);
+//wait.add(wait_image);
 var wait_text = new UI.Text({
   position: new Vector2(0, 100),
   size: new Vector2(144, 68),
@@ -54,7 +54,11 @@ var wait_text = new UI.Text({
   textAlign:'center',
   backgroundColor:'white'
 });
-wait.add(wait_text);
+wait.add(wait_text);*/
+var wait = new UI.Card({
+  style: 'large'
+});
+wait.subtitle('Connecting to\nOurGroceries...');
 
 // Display error messages
 function display_message(n, error, status) {
@@ -145,7 +149,6 @@ function load_menu2() {
       data.categoryList.forEach(function(e, i, a) {
         categoryList[e.id] = [i, e.value];
       });
-      //console.log(JSON.stringify(categoryList));
       ajax({ url: encodeURI(base_url + api_query + '&auth=' + localStorage.getItem('auth') + '&data={"command":"getList","listId":"' + listId + '","teamId":"' + localStorage.getItem('teamId') + '"}&level=2'), type: 'json' },
         function(data) {
           if (data == "unauthorized") {
