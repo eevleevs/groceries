@@ -1,0 +1,26 @@
+body {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+form {
+  margin: 1.5em;
+}
+
+input {
+  font-size: inherit;
+}
+
+input[type=text] input[type=password] {
+  margin-bottom: .5em;
+  width: 15em;
+}
+
+p {
+  margin: 0 0 1.5em 0;
+}
+
+p.error {
+  color: red;
+}
